@@ -36,7 +36,7 @@ export default class HandGestureService {
       //para retornar pra quem chamou. Assim que o resultado está pronto ele informa quem
       //chamou e segue o loop.
       yield { event: result.name, x, y }
-      console.log('detected', this.#gestureStrings[result.name]);
+      //console.log('detected', this.#gestureStrings[result.name]);
     }
   }
 
